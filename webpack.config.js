@@ -24,13 +24,6 @@ module.exports = {
     alias: {
       Main: 'app/components/main.jsx',
       Nav: 'app/components/nav.jsx',
-      Weather: 'app/components/weather.jsx',
-      About: 'app/components/about.jsx',
-      Examples: 'app/components/examples.jsx',
-      WeatherForm: 'app/components/weatherForm.jsx',
-      WeatherMessage: 'app/components/weatherMessage.jsx',
-      OpenWeatherMap: 'app/api/openWeatherMap.jsx',
-      ErrorModal: 'app/components/errorModal.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['*', '.js', '.jsx']

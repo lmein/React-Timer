@@ -1,1 +1,1 @@
-React weather App
+React Template Documentation

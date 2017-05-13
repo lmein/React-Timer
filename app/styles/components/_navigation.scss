@@ -1,0 +1,29 @@
+//_ at beginning of file name tells scss that this is a partial file to be used with other files.
+
+// $space-large: 2.5rem;
+// $title-color: blue;
+//
+// .page-title {
+//   color: $title-color;
+//   margin-top: $space-large;
+//   margin-bottom: $space-large;
+// }
+//
+// input[type=search] {
+//   box-shadow: none;
+// }
+
+.top-bar, .top-bar ul {
+  background-color: $nav-background;
+}
+
+.top-bar {
+  .menu-text {
+    color: $nav-text-color;
+  }
+
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
+  }
+}

@@ -7,9 +7,6 @@ const {Route, Router, IndexRoute, hashHistory} = require('react-router');
 // const hashHistory = require('react-router').hashHistory;
 // weather api key: df7e3c98ca0017fe242189315a17b64e
 const Main = require('Main');
-const Weather = require('Weather');
-const About = require('About');
-const Examples = require('Examples');
 
 //Load foundations
 //css! is from the css-loader that was installed.
@@ -22,10 +19,10 @@ $(document).foundation();
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route exact path="/" component={Main}>
-      <Route path="about" component={About}/>
-      <Route path="examples" component={Examples}/>
-      <IndexRoute component={Weather}/>
     </Route>
   </Router>,
   document.getElementById('app')
 );
+// <Route path="about" component={About}/>
+// <Route path="examples" component={Examples}/>
+// <IndexRoute component={Weather}/>
