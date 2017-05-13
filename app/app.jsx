@@ -7,6 +7,8 @@ const {Route, Router, IndexRoute, hashHistory} = require('react-router');
 // const hashHistory = require('react-router').hashHistory;
 // weather api key: df7e3c98ca0017fe242189315a17b64e
 const Main = require('Main');
+const Countdown = require('Countdown');
+const Timer = require('Timer');
 
 //Load foundations
 //css! is from the css-loader that was installed.
@@ -19,6 +21,8 @@ $(document).foundation();
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route exact path="/" component={Main}>
+      <Route path="countdown" component={Countdown}/>
+      <IndexRoute component={Timer}/>
     </Route>
   </Router>,
   document.getElementById('app')

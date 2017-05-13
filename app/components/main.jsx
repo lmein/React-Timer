@@ -7,7 +7,6 @@ var Main = (props) => {
       <Nav/>
       <div>
         <div>
-          <p>Timer</p>
           {props.children}
         </div>
       </div>
