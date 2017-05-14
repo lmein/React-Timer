@@ -27,6 +27,7 @@ module.exports = {
       Countdown: 'app/components/countdown.jsx',
       Timer: 'app/components/timer.jsx',
       Clock: 'app/components/clock.jsx',
+      CountdownForm: 'app/components/countdownForm.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['*', '.js', '.jsx']
